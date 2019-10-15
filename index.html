@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>The 7th Amendment</title>
+		
+		<style>
+			a {
+				text-decoration: none;
+			}
+			
+			a:hover {
+				text-decoration: underline;
+			}
+		
+			body {
+				margin: 0;
+				padding: 0;
+				background-color: #e7e7e7;
+				font-family: "Arial";
+				line-height: 2;
+			}
+			
+			h2 {
+				margin-bottom: 0;
+			}
+			
+			li {
+				margin: 15px;
+			}
+
+			li > p {
+				color: rgb(24, 0, 238);
+			}
+
+			li > p:hover {
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			
+			p {
+				margin-top: 0;
+			}
+			
+			ul {
+				list-style-type: none;
+				margin: 10 0 10 0;
+				padding: 0;
+			}
+			
+			.body {
+				height: 100%;
+				padding: 10px 30px 10px 0px;
+			}
+			
+			.container {
+				padding: 10px;
+				width: 890px;
+				margin: 50px auto;
+				background-color: white;
+				box-shadow: 0 0 80px 2px black;
+			}
+			
+			.footer {
+				clear: both;
+				text-align: right;
+				background: #e7e7e7;
+				width: 880px;
+				padding: 5px;
+			}
+			
+			.header {
+				color: white;
+				background-color: #020AB4;
+				padding: 10px;
+				text-align: center;
+			}
+			
+			.src {
+				position: sticky;
+				top: 0px;
+				margin-top: 0;
+				width: 250px;
+				height: 90vh;
+				float: left;
+				border-right: 1px solid black;
+				text-align: center;
+			}
+			
+			.main {
+				width: 600px;
+				margin-top: 20px;
+				float: right;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="header">
+				<h1>The Seventh Amendment</h1>
+			</div>
+			
+			<div class="body">
+				<div class="src">
+					<h3>Sources</h3>
+					<ul>
+						<li><a href="https://constitutioncenter.org/interactive-constitution/interpretation/amendment-vii/interps/125">National Constitution Center</a></li>
+						<li><a href="https://www.ducksters.com/history/us_government/seventh_amendment.php">Ducksters</a></li>
+						<li><a href="http://www.patrickhenryteaparty.com/seventh-amendment.html">Patrick Henry Tea Party</a></li>
+						<li><a href="https://legaldictionary.net/7th-amendment/">Legal Dictionary</a></li>
+					</ul>
+					<h3>Navigation</h3>
+					<ul>
+						<li><p onclick="scrollToSec(constitution)">The Constitution</p></li>
+						<li><p onclick="scrollToSec(needed)">Why is it Needed?</p></li>
+						<li><p onclick="scrollToSec(whatFor)">Who is it For?</p></li>
+						<li><p onclick="scrollToSec(used)">When is it Used?</p></li>
+						<li><p onclick="scrollToSec(denied)">Can it be Denied?</p></li>
+						<li><p onclick="scrollToSec(kept)">Should it be Kept?</p></li>
+					</ul>
+				</div>
+			
+				<div class="main">
+					<p>The Seventh Amendment was added to the Constitution on December 15, 1791 and is also a part of the Bill of Rights. The amendment protects citizens' rights to a trial by jury in civil court cases only.</p>
+					
+					<h2 id="constitution">The Constitution</h2>
+					<p>The Seventh Amendment as written on the Constitution is as follows:<br>
+					<i>
+						"In suits at common law, where the value in controversy shall exceed twenty dollars, the right of trial by jury shall be preserved, and no fact tried by a jury, shall be otherwise re-examined in any court of the United States, than according to the rules of the common law."
+					</i><br>
+						This means that the judges will not have too much power. Having a jury makes trials much more fair because there is less bias. It also says that any lawsuit must exceed twenty dollars, however, this has changed and now the dispute must be over at least $75,000.
+					</p>
+					
+					<h2 id="needed">Why is it Needed?</h2>
+					<p>
+						The American colonists at the time had gone through a period of time where the British government did not allow them to have jury trials. The British did this because the juries were going against British law and they did not want this to continue to happen. The amendment was also added so the decision on whether or not someone was guilty was not made by a government official. It allows people to be declared innocent even if they are guilty.
+						We need The Seventh Amendment because of the freedoms it offers. It provides a fair way of settling legal disputes and without it, all civil court cases would be decided by the government, who may have bias.
+					</p>
+					
+					<h2 id="whatFor">Who is it For?</h2>
+					<p>
+						The Seventh Amendment is for the American people. It is a right for all and benefits anyone who ends up on trial for a civil case.
+					</p>
+					
+					<h2 id="used">When is it Used?</h2>
+					<p>
+						The Seventh Amendment is used in civil court cases. It would be used in a lawsuit or in a copyright infringement case. The majority of cases have a jury, whether it's civil (7th Amendment), or criminal (6th Amendment).
+					</p>
+
+					<h2 id="denied">Can it be Denied?</h2>
+					<p>
+						The Seventh Amendment can be denied under certain circumstances such as the Copyright Act. In the Feltner vs. Columbia Pictures television. Feltner was fined for running shows after Columbia revoked their license and was put on trial without a jury. When Feltner was unsatisfied with the results, he took the case to the supreme court. There the court decided that because there’s no provision for statutory damages and the previous decision is held, except his fine was raised. 
+					</p>
+					
+					<h2 id="kept">Should it be Kept?</h2>
+					<p>
+						The Seventh Amendment should be kept because of the rights it offers. Without it, court cases would not be fair as the government would be deciding who is or is not guilty. The Amendment ensures that civil court cases are treated fairly through the use of a jury.
+					</p>
+				</div>
+				
+				<center>
+					<div class="footer">
+						Copyright &copy; Nick Kennedy and Sam Peters
+					</div>
+				</center>
+			</div>
+		</div>
+		
+		<script>
+			var constitution = document.getElementById('constitution');
+			var needed = document.getElementById('needed');
+			var whatFor = document.getElementById('whatFor');
+			var used = document.getElementById('used');
+			var denied = document.getElementById('denied');
+			var kept = document.getElementById('kept');
+
+			function scrollToSec(where) {
+				where.scrollIntoView();
+			}
+		</script>
+	</body>
+</html>
